@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const reactionSchema = require('./Reaction');
+const reactionSchema = require('../schemas/reactionSchema');
 
 const thoughtSchema = new mongoose.Schema(
   {
@@ -18,20 +18,9 @@ const thoughtSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    reactions: [reactionSchema],
-  },
-  {
-    toJSON: {
-      virtuals: true,
-    },
-    id: false,
+    reactions: [reactionSchema]
   }
 );
-
-// Create a virtual called reactionCount that retrieves the length of the thought's reactions array field on query.
-thoughtSchema.virtual('reactionCount').get(function () {
-  return this.reactions.length;
-});
 
 const Thought = mongoose.model('Thought', thoughtSchema);
 

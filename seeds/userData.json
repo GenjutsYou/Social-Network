@@ -1,0 +1,153 @@
+[
+  {
+    "_id": "5edff358a0fcb779aa7b1001",
+    "username": "exampleUser1",
+    "email": "user1@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b118b",
+      "5edff358a0fcb779aa7b1194"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1002",
+      "5edff358a0fcb779aa7b1003",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1008",
+      "5edff358a0fcb779aa7b1009"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1002",
+    "username": "exampleUser2",
+    "email": "user2@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b118c"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1001",
+      "5edff358a0fcb779aa7b1003",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1007",
+      "5edff358a0fcb779aa7b1008",
+      "5edff358a0fcb779aa7b100a"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1003",
+    "username": "exampleUser3",
+    "email": "user3@example.com",
+    "thoughts": [],
+    "friends": [
+      "5edff358a0fcb779aa7b1001",
+      "5edff358a0fcb779aa7b1002",
+      "5edff358a0fcb779aa7b1004",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1007",
+      "5edff358a0fcb779aa7b1008"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1004",
+    "username": "exampleUser4",
+    "email": "user4@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b118c"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1003",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1006",
+      "5edff358a0fcb779aa7b1009",
+      "5edff358a0fcb779aa7b100a"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1005",
+    "username": "exampleUser5",
+    "email": "user5@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b118d"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1001",
+      "5edff358a0fcb779aa7b1002",
+      "5edff358a0fcb779aa7b1003",
+      "5edff358a0fcb779aa7b1004",
+      "5edff358a0fcb779aa7b1007",
+      "5edff358a0fcb779aa7b1009",
+      "5edff358a0fcb779aa7b100a"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1006",
+    "username": "exampleUser6",
+    "email": "user6@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b118e"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1004",
+      "5edff358a0fcb779aa7b1007",
+      "5edff358a0fcb779aa7b1008",
+      "5edff358a0fcb779aa7b1009"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1007",
+    "username": "exampleUser7",
+    "email": "user7@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b118f"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1002",
+      "5edff358a0fcb779aa7b1003",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1006",
+      "5edff358a0fcb779aa7b1009",
+      "5edff358a0fcb779aa7b100a"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1008",
+    "username": "exampleUser8",
+    "email": "user8@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b1190"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1001",
+      "5edff358a0fcb779aa7b1002",
+      "5edff358a0fcb779aa7b1003",
+      "5edff358a0fcb779aa7b1006",
+      "5edff358a0fcb779aa7b1009"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b1009",
+    "username": "exampleUser9",
+    "email": "user9@example.com",
+    "thoughts": [],
+    "friends": [
+      "5edff358a0fcb779aa7b1001",
+      "5edff358a0fcb779aa7b1004",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1006",
+      "5edff358a0fcb779aa7b1007",
+      "5edff358a0fcb779aa7b1008"
+    ]
+  },
+  {
+    "_id": "5edff358a0fcb779aa7b100a",
+    "username": "exampleUser10",
+    "email": "user10@example.com",
+    "thoughts": [
+      "5edff358a0fcb779aa7b1191"
+    ],
+    "friends": [
+      "5edff358a0fcb779aa7b1002",
+      "5edff358a0fcb779aa7b1004",
+      "5edff358a0fcb779aa7b1005",
+      "5edff358a0fcb779aa7b1007"
+    ]
+  }
+]

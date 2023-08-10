@@ -4,12 +4,12 @@ const reactionSchema = new mongoose.Schema(
   {
     reactionId: {
       type: mongoose.Schema.Types.ObjectId,
-      default: () => new mongoose.Types.ObjectId(),
+      default: new mongoose.Types.ObjectId(),
     },
     reactionBody: {
       type: String,
       required: true,
-      maxlength: 280,
+      maxLength: 280,
     },
     username: {
       type: String,
@@ -19,11 +19,6 @@ const reactionSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
       get: (timestamp) => new Date(timestamp).toISOString(),
-    },
-  },
-  {
-    toJSON: {
-      getters: true,
     },
   }
 );

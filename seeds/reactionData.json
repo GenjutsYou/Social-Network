@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "5edff358a0fcb779aa7b1193",
+        "reactionId": "617d7260b1c3f21f783d2b01",
+        "reactionBody": "Great thought!",
+        "username": "exampleUser1",
+        "createdAt": "2023-08-09T11:00:00Z"
+    },
+    {
+        "_id": "5edff358a0fcb779aa7b1193",
+        "reactionId": "617d7276b1c3f21f783d2b02",
+        "reactionBody": "I agree.",
+        "username": "exampleUser2",
+        "createdAt": "2023-08-08T16:00:00Z"
+    },
+    {
+        "_id": "5edff358a0fcb779aa7b118f",
+        "reactionId": "617d7286b1c3f21f783d2b03",
+        "reactionBody": "I disagree.",
+        "username": "exampleUser3",
+        "createdAt": "2023-08-07T03:00:00Z"
+    },
+    {
+        "_id": "5edff358a0fcb779aa7b118c",
+        "reactionId": "617d7296b1c3f21f783d2b04",
+        "reactionBody": "I have a different opinion.",
+        "username": "exampleUser4",
+        "createdAt": "2023-08-06T00:00:00Z"
+    }
+]
