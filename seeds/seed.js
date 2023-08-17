@@ -4,8 +4,6 @@ const { User, Thought } = require('../models');
 mongoose.connect('mongodb://localhost:27017/social-network-api', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false
 });
 
 const userData = require('./userData.json');
