@@ -10,12 +10,17 @@ const {
 } = require('../../controllers/user-controller');
 
 // Define API routes for users
-router.get('/users', getAllUsers);
-router.get('/users/:id', getUserById);
-router.post('/users', createUser);
-router.put('/users/:id', updateUser);
-router.delete('/users/:id', deleteUser);
-router.post('/users/:userId/friends/:friendId', addFriend);
-router.delete('/users/:userId/friends/:friendId', removeFriend);
+router.route('/')
+  .get(getAllUsers)
+  .post(createUser);
+
+router.route('/:id')
+  .get(getUserById)
+  .put(updateUser)
+  .delete(deleteUser);
+
+router.route('/:userId/friends/:friendId')
+  .post(addFriend)
+  .delete(removeFriend);
 
 module.exports = router;

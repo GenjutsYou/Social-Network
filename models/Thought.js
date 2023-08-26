@@ -19,7 +19,6 @@ const ReactionSchema = new mongoose.Schema(
       createdAt: {
           type: Date,
           default: Date.now,
-          get: createdAtVal => dateFormat(createdAtVal)
       }
   },
   {
@@ -40,7 +39,6 @@ const ThoughtSchema = new mongoose.Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: createdAtVal => dateFormat(createdAtVal)
         },
         username: {
             type: String,
