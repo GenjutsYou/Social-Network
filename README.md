@@ -45,4 +45,4 @@ For any questions or inquiries, please reach out to me:
 
 ## Link
 
-[Social-Network](https://github.com/GenjutsYou/Social-Network)
+[Social-Network](https://drive.google.com/file/d/1bJNmfo6pgv4tKzGrMaz3l_-0DbfCzs1O/view)
